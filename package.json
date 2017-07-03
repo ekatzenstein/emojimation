@@ -1,9 +1,10 @@
 {
   "name": "emojimation",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Animate tone transitions with emojis, using SVG. Designed for sentiment analysis.",
   "keywords": [
-    "react-component"
+    "react-component",
+    "tone", "svg", "emoji", "animation", "transition", "sentiment","analysis"
   ],
   "main": "lib/index.js",
   "module": "es/index.js",
