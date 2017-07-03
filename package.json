@@ -4,7 +4,7 @@
   "description": "Animate tone transitions with emojis, using SVG. Designed for sentiment analysis.",
   "keywords": [
     "react-component",
-    "tone", "svg", "emoji", "emoticon","animation", "transition", "sentiment","analysis"
+    "tone", "svg", "emoji", "emoticon","animation", "transition", "sentiment","analysis", "emotion"
   ],
   "main": "lib/index.js",
   "module": "es/index.js",
