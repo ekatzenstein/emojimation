@@ -96,10 +96,6 @@ headColor="${headColor}" ${eyeColor ? `eyeColor="${eyeColor}"` : ''} ${browColor
     this.setState({ emotion, code, headColor, eyeColor, browColor, mouthColor })
   }
   render() {
-
-
-    console.log(this.state.emotion)
-
     const options = {
       lineNumbers: false,
       readOnly: true,
