@@ -1,7 +1,14 @@
 {
   "name": "emojimation",
-  "version": "1.0.0",
-  "description": "emojimation React component",
+  "version": "0.1.0",
+  "description": "Animate tone transitions with emojis, using SVG. Designed for sentiment analysis.",
+  "keywords": [
+    "svg",
+    "emoji",
+    "sentiment",
+    "analysis",
+    "tone"
+  ],
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -19,7 +26,9 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
-    "prop-types": "^15.5.10"
+    "d3": "^4.9.1",
+    "prop-types": "^15.5.10",
+    "resonance": "^0.9.3"
   },
   "peerDependencies": {
     "react": "15.x"

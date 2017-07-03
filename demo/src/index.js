@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
 
-import LoadingButton from '../../src'
+import Emojimation from '../../src'
 
 class Demo extends Component {
-  state = { loading: false }
+  state = { emotion: 'joy', headColor: 'yellow' }
 
   handleToggleLoading = () => {
     this.setState({ loading: !this.state.loading })
@@ -12,19 +12,7 @@ class Demo extends Component {
 
   render() {
     return <div>
-      <h1>react-loading-button Demo</h1>
-
-      <h2>Static</h2>
-      <LoadingButton>Load</LoadingButton>
-      <LoadingButton loading>Loading</LoadingButton>
-
-      <h2>Dynamic</h2>
-      <LoadingButton loading={this.state.loading}>
-        {this.state.loading ? 'Loading' : 'Load'}
-      </LoadingButton>
-      <button type="button" onClick={this.handleToggleLoading}>
-        Toggle Loading
-      </button>
+      <Emojimation emotion={this.state.emotion} headColor={this.state.headColor} />
     </div>
   }
 }
