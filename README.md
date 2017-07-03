@@ -7,25 +7,31 @@
 </a>
 </div>
 
-### About
+<br/>
+
+# About
 <strong>emojimation</strong> is a React component that enables tweening between different emoji expressions. Since it's SVG interpolation on path components, the emojis are of infinite resolution and can be used as a lightweight tool to convey tone and narrative.
 
+<br/>
 
-### Getting Started
+# Getting Started
 
-#### Install
+### Install
 ```npm install --save emojimation```
 
-#### Component
+### Component
 At the minimum, you can call the component with `<Emojimation/>` and it will load with the default 'joy' emotion. Here's a more detailed version.
 
 ``` <Emojimation emotion="joy" duration={800} width="30vh" height="30vh" style={{margin:'20px'}} headColor="yellow"/> ```
 
-### Documentation and Samples
+<br/>
+
+# Documentation and Samples
 For a full list of attributes and all 44 emotions, see the [Documentation Site](https://ekatzenstein.github.io/emojimation/)
 
+<br/>
 
-### More
+# More
 This component was built for the [React Riot Hackathon](https://www.reactriot.com/entries/301-reactmeisters), where our team took home the Innovation Award :D. While it was built as tool for [sentiment analysis](https://www.ibm.com/watson/developercloud/tone-analyzer.html), SVG tweening can be used for a variety of other things. These drawings were built in a CAD environment, using [Grasshopper](http://www.grasshopper3d.com/) for [Rhino](https://www.rhino3d.com/) and then converted to a json file for the front-end. Please reach out if you'd like to collaborate on animated transitions for data visualization and interaction.
 
 ### Props
