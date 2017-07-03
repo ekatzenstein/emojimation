@@ -1,11 +1,5 @@
 {
   "private": true,
   "name": "Emojimation",
-  "main": "./Emojimation.js",
-  "dependencies": {
-    "classnames": "^2.2.5",
-    "d3": "^4.9.1",
-    "react-codemirror": "^1.0.0",
-    "resonance": "^0.9.3"
-  }
+  "main": "./Emojimation.js"
 }
