@@ -32,6 +32,7 @@ This component was built for the [React Riot Hackathon](https://www.reactriot.co
 The React Riot Hackathon was a team collaboration with:
 * [Josh Goldmeier](https://github.com/joshuagoldmeier)
 * [Mike Kaplun](https://github.com/mishaetaya)
+* [Erick Katzenstein](https://github.com/ekatzenstein)
 * [Kaushik Nagaraj](https://github.com/knxyzkn)
 
 Also, props to [d3](https://d3js.org/) and the awesome React version, [resonance](https://www.npmjs.com/package/resonance), for making the transitions agree with the React paradigm.
