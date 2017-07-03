@@ -24,7 +24,7 @@ class Tweener extends Component {
                     viewBox="0 0 512 512"
                     preserveAspectRatio="none"
                 >
-                    <image x="0%" y="0%" width="512" height="512" xlinkHref="/img/EmojiBackground.png"></image>
+                    <image x="0%" y="0%" width="512" height="512" xlinkHref="img/EmojiBackground.png"></image>
                 </pattern>
             </defs >
         )
