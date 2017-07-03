@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import * as d3 from 'd3';
 import { NodeGroup } from 'resonance';
 
-import emotions from '../public/emotions.json';
-import background from '../public/EmojiBackground.png';
+import emotions from './static/emotions.json';
+import background from './static/EmojiBackground.png';
 
 class Tweener extends Component {
   componentWillMount() {
