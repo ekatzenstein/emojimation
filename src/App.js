@@ -110,7 +110,7 @@ headColor="${headColor}" ${eyeColor ? `eyeColor="${eyeColor}"` : ''} ${browColor
           duration={800}
         />
         <div style={{ marginTop: '30vh', paddingTop: '40px', position: 'absolute' }}>
-          <h2 style={{ textAlign: 'center' }}>Emojimation</h2><h3 style={{ textAlign: 'center' }} ><a href="npmjs.com/emoijimation" target="_blank">npm</a> | <a href="https://github.com/ekatzenstein/emojimation" target="_blank">github</a></h3>
+          <h2 style={{ textAlign: 'center' }}>Emojimation</h2><h3 style={{ textAlign: 'center' }} ><a href="https://www.npmjs.com/package/emojimation" target="_blank">npm</a> | <a href="https://github.com/ekatzenstein/emojimation" target="_blank">github</a></h3>
 
           <div style={{ textAlign: 'center', width: '80%', margin: '0 auto' }}>
             {Object.keys(emotions).map(key => {
