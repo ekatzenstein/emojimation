@@ -1,5 +1,5 @@
 /*!
- * emojimation v1.0.0
+ * emojimation v0.1.0
  * MIT Licensed
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -2067,10 +2067,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_d3___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_d3__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_resonance__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__emotions_json__ = __webpack_require__(152);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__emotions_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__emotions_json__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__EmojiBackground_png__ = __webpack_require__(153);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__EmojiBackground_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__EmojiBackground_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__public_emotions_json__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__public_emotions_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__public_emotions_json__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__public_EmojiBackground_png__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__public_EmojiBackground_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__public_EmojiBackground_png__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -2115,7 +2115,7 @@ var Tweener = function (_Component) {
           viewBox: '0 0 512 512',
           preserveAspectRatio: 'none'
         },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('image', { x: '0%', y: '0%', width: '512', height: '512', xlinkHref: __WEBPACK_IMPORTED_MODULE_5__EmojiBackground_png___default.a })
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('image', { x: '0%', y: '0%', width: '512', height: '512', xlinkHref: __WEBPACK_IMPORTED_MODULE_5__public_EmojiBackground_png___default.a })
       )
     );
   };
@@ -2125,7 +2125,7 @@ var Tweener = function (_Component) {
 
     var emotion = this.props.emotion === 'upside_down_face' ? 'slightly_smiling_face' : this.props.emotion;
 
-    var _emotions$emotion = __WEBPACK_IMPORTED_MODULE_4__emotions_json___default.a[emotion],
+    var _emotions$emotion = __WEBPACK_IMPORTED_MODULE_4__public_emotions_json___default.a[emotion],
         le = _emotions$emotion.le,
         re = _emotions$emotion.re,
         lb = _emotions$emotion.lb,
