@@ -1,0 +1,23 @@
+{
+  "name": "emojimation",
+  "version": "0.1.0",
+  "author": "Erick Katzenstein",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "d3": "^4.9.1",
+    "react": "^15.6.1",
+    "react-codemirror": "^1.0.0",
+    "react-dom": "^15.6.1",
+    "resonance": "^0.9.3"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
