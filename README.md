@@ -3,7 +3,7 @@
 
 <div align="center">
 <a href="https://ekatzenstein.github.io/emojimation" target="_blank"/>
-	<img width="500" src="https://github.com/ekatzenstein/emojimation/blob/master/emoji.gif?raw=true" alt="chalk">
+	<img width="100%" src="https://github.com/ekatzenstein/emojimation/blob/master/emoji.gif?raw=true" alt="chalk">
 </a>
 </div>
 
