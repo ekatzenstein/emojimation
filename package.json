@@ -1,6 +1,6 @@
 {
   "name": "emojimation",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Animate tone transitions with emojis, using SVG. Designed for sentiment analysis.",
   "repository": {
     "type": "git",
