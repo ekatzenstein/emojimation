@@ -7,20 +7,25 @@ import emotions from './static/emotions.json';
 import background from './static/EmojiBackground.png';
 
 class Tweener extends Component {
-  componentWillMount() {
+
+  constructor() {
+    super();
     //define d3 drawing functions
     const x = d3.scaleLinear()
       .rangeRound([0, 1000]);
+
     const y = d3.scaleLinear()
       .rangeRound([0, 1000]);
+
     this.line = d3.line()
       .curve(d3.curveBasisClosed)
       .x(function (d) { return x(+d.x); })
       .y(function (d) { return y(1 - +d.y); });
+
     //create svg shading def
     this.svgShading = (
       <defs>
-        <pattern id="image0" x="0%" y="0%" height="100%" width="100%"
+        <pattern id="emoji-image" x="0%" y="0%" height="100%" width="100%"
           viewBox="0 0 512 512"
           preserveAspectRatio="none"
         >
@@ -34,15 +39,11 @@ class Tweener extends Component {
     const emotion = this.props.emotion === 'upside_down_face' ? 'slightly_smiling_face' : this.props.emotion;
 
     const { le, re, lb, rb, mouth, head, tongue } = emotions[emotion];
-    const headColor = this.props.headColor;
-    const tongueColor = this.props.tongueColor;
-    const eyeColor = this.props.eyeColor;
-    const browColor = this.props.browColor;
-    const mouthColor = this.props.mouthColor;
+    const { headColor, tongueColor, eyeColor, browColor, mouthColor } = this.props;
 
     const dataArray = [
       { key: "head", data: head, fill: headColor },
-      { key: "headImg", data: head, fill: "url(#image0)" },
+      { key: "headImg", data: head, fill: "url(#emoji-image)" },
       { key: "le", data: le, fill: eyeColor },
       { key: "re", data: re, fill: eyeColor },
       { key: "lb", data: lb, fill: browColor },
@@ -80,17 +81,11 @@ class Tweener extends Component {
               timing: { duration: this.props.duration },
             })}
           >
-            {(nodes) => {
-              return (
-                <g>
-                  {nodes.map(({ key, data, state }) => {
-                    return (
-                      <path key={key}{...state} />
-                    )
-                  })}
-                </g>
-              )
-            }}
+            {(nodes) => (
+              <g>
+                {nodes.map(({ key, data, state }) => <path key={key}{...state} />)}
+              </g>
+            )}
           </NodeGroup>
         </svg>
       </div>
