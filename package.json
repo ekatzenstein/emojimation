@@ -2,6 +2,10 @@
   "name": "emojimation",
   "version": "0.1.5",
   "description": "Animate tone transitions with emojis, using SVG. Designed for sentiment analysis.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekatzenstein/emojimation.git"
+  },
   "keywords": [
     "react-component",
     "tone",
@@ -43,8 +47,10 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
-  "author": "",
-  "homepage": "",
-  "license": "MIT",
-  "repository": ""
+  "bugs": {
+    "url": "https://github.com/ekatzenstein/emojimation/issues"
+  },
+  "homepage": "https://github.com/ekatzenstein/emojimation",
+  "author": "Erick Katzenstein",
+  "license": "MIT"
 }
